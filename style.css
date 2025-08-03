@@ -1,0 +1,73 @@
+body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .top-bar {
+      background-color: #980c94;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 30px;
+      flex-wrap: wrap;
+    }
+    .top-bar .links {
+      display: flex;
+      gap: 20px;
+      color: #fff;
+      font-size: 14px;
+    }
+    .top-bar .links a {
+      text-decoration: none;
+      color: #fff;
+    }
+    .top-bar .social-icons {
+      display: flex;
+      gap: 15px;
+    }
+    .top-bar .social-icons i {
+      color: #fff;
+      cursor: pointer;
+    }
+    .nav-bar {
+      background-color: #2e003e;
+      color: #ffd700;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 30px;
+      flex-wrap: wrap;
+    }
+    .nav-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .nav-logo img {
+      height: 60px;
+    }
+    .nav-menu {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+    .nav-item {
+      text-align: center;
+    }
+    .nav-item h4 {
+      margin: 0;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .nav-item span {
+      display: block;
+      font-size: 13px;
+      font-style: italic;
+      color: #d8d8d8;
+    }
+    @media (max-width: 768px) {
+      .nav-menu {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+      }
+    }
