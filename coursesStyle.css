@@ -1,0 +1,178 @@
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .top-bar {
+        background-color: #980c94;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 30px;
+        flex-wrap: wrap;
+    }
+
+    .top-bar .links {
+        display: flex;
+        gap: 20px;
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .top-bar .links a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .top-bar .social-icons {
+        display: flex;
+        gap: 15px;
+    }
+
+    .top-bar .social-icons i {
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .nav-bar {
+        background-color: #2e003e;
+        color: #ffd700;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 30px;
+        flex-wrap: wrap;
+    }
+
+    .nav-logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .nav-logo img {
+        height: 60px;
+    }
+
+    .nav-menu {
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .nav-item {
+        text-align: center;
+    }
+
+    .nav-item h4 {
+        margin: 0;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .nav-item span {
+        display: block;
+        font-size: 13px;
+        font-style: italic;
+        color: #d8d8d8;
+    }
+
+    @media (max-width: 768px) {
+        .nav-menu {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 15px;
+        }
+    }
+
+
+
+    .card-title {
+        color: #6a1b9a;
+        font-weight: 600;
+    }
+
+    .course-section {
+        padding-top: 50px;
+    }
+
+    #courses {
+        background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
+            url("image/courses-head.jpg") center/cover no-repeat;
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+
+    .card {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    }
+
+    .section-header {
+        background-color: transparent;
+        color: #980c94;
+        padding: 10px 0;
+        border-bottom: 2px solid #e0e0e0;
+        text-align: center;
+    }
+
+    .fade-in {
+        animation: fadeIn 1s ease-in forwards;
+        opacity: 0;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    body {
+        font-family: "Segoe UI", sans-serif;
+        background-color: #fafafa;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    .btn-primary {
+        background-color: #980c94;
+        border: none;
+        color: white;
+        transition: background-color 0.2s;
+    }
+
+    .btn-primary:hover {
+        background-color: #9a23be;
+    }
+
+    /* Footer styling */
+footer {
+    background-color: #2e003e; /* same dark purple/nav-bar bg */
+    color: #ffd700; /* gold text */
+    padding: 25px 0;
+    /* margin-top: 60px; */
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #a3159e; /* purple links */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
